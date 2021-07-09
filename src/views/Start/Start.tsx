@@ -56,14 +56,14 @@ const Start: React.FC = () => {
       <StyledHero>
         <StartPageHeader
           icon={`${astronaut}❤️🍠`}
-          subtitle="Fair launch, open participation, and inclusive community."
+          subtitle="Growing our Purse, open participation, and inclusive community."
           title="Fair finance by the people, for the people."
         />
         <Container size="lg">
           <Box row justifyContent="center">
-            <Button text="Open App" to="/dashboard" />
+            <Button text="Buy Token" to="#" />
             <Spacer />
-            <Button text="Join the Community" href="https://discord.com/invite/TgFpmDj" variant="secondary" />
+            <Button text="Join the Community" href="https://discord.gg/6GqfwVgqf8" variant="secondary" />
           </Box>
         </Container>
       </StyledHero>
@@ -74,7 +74,7 @@ const Start: React.FC = () => {
         <StyledSectionIcon>⚖️</StyledSectionIcon>
         <Spacer size="lg" />
         <StyledSectionTitle>Fair finance for everyone.</StyledSectionTitle>
-        <StyledSectionDescription>Yam is owned and controlled by our community of Yam token holders.</StyledSectionDescription>
+        <StyledSectionDescription>CPS Token is owned and controlled by our community of CPS token holders.</StyledSectionDescription>
         <Spacer size="lg" />
         <StartSplit>
           <Card>
@@ -83,11 +83,11 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Growing treasury</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>The YAM treasury is vibrant and growing fast.</StyledCardDescription>
+              <StyledCardDescription>The CPS treasury is YOUNG and growing fast.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
-                <Button text="View treasury" variant="secondary" to="/dashboard" />
+                <Button text="View treasury" variant="secondary" to="#" />
               </Box>
             </CardActions>
           </Card>
@@ -97,11 +97,11 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Yield farming</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>Earn YAMs while helping YAM grow too.</StyledCardDescription>
+              <StyledCardDescription>Earn CPS Token while helping CPS grow too.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
-                <Button text="Start farming" variant="secondary" to="/farm" />
+                <Button text="Start farming" variant="secondary" to="#" />
               </Box>
             </CardActions>
           </Card>
@@ -111,11 +111,11 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Decentralized governance</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>YAM holders decide YAM's future via on-chain voting.</StyledCardDescription>
+              <StyledCardDescription>CPS Token holders decide CPS future via on-chain voting.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
-                <Button text="Go vote" variant="secondary" to="/governance" />
+                <Button text="Go vote" variant="secondary" to="#" />
               </Box>
             </CardActions>
           </Card>
@@ -123,36 +123,7 @@ const Start: React.FC = () => {
         <Spacer size="lg" />
         <Separator />
         <Spacer size="lg" />
-        <Box>
-          <StyledSectionIcon>👁️</StyledSectionIcon>
-          <Spacer size="lg" />
-          <StyledSectionTitle>As seen in</StyledSectionTitle>
-          <Spacer size="lg" />
-          <StartSplit gapSize="lg">
-            <StyledLogo>
-              <CoinTelegraphIcon />
-            </StyledLogo>
-            <StyledLogo>
-              <TheDefiantIcon />
-            </StyledLogo>
-            <StyledLogo>
-              <CoinDeskIcon />
-            </StyledLogo>
-          </StartSplit>
-          <Spacer size="lg" />
-          <StartSplit gapSize="lg">
-            <StyledLogo>
-              <GizmodoIcon />
-            </StyledLogo>
-            <StyledLogo>
-              <ForbesIcon />
-            </StyledLogo>
-            <StyledLogo>
-              <TheRegisterIcon />
-            </StyledLogo>
-          </StartSplit>
-          <Spacer size="lg" />
-        </Box>
+       
       </Container>
     </StartPage>
   )
