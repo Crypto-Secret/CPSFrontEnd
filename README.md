@@ -1,4 +1,4 @@
-# CryptoSecret.finance 🍠
+# CryptoSecret.finance
 
 > The core website application forked from YAM Finance.
 
@@ -11,8 +11,7 @@ CPS is the governance token for the CryptoSecret protocol. A decentralized crypt
 https://cryptosecret.finance/ - Live website
 <a href="https://app.netlify.com/sites/epic-goldberg-1d6f10/deploys" target="_blank">![Netlify Status](https://api.netlify.com/api/v1/badges/c6e1a55f-0f94-4b2d-937c-0749cf108ebd/deploy-status)</a>
 
-https://develop.yam.finance/ - Devleopment builds
-<a href="https://app.netlify.com/sites/naughty-villani-786b2d/deploys" target="_blank">![Netlify Status](https://api.netlify.com/api/v1/badges/aeee282a-58a9-4cf7-8965-a9cafc836168/deploy-status)</a>
+
 
 ## Developments
 
