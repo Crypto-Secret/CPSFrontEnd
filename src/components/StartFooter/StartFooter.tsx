@@ -35,7 +35,7 @@ const StartFooter: React.FC = () => {
       <StyledFooterText>
         <span style={{ opacity: 0.5 }}>Built with </span>
         <span role="img"> ❤️ </span>
-        <span style={{ opacity: 0.5 }}>by the YAM community.</span>
+        <span style={{ opacity: 0.5 }}>for the CryptoSecret community.</span>
       </StyledFooterText>
       <Spacer />
       <StyledFooterDarkModeSwitch>
