@@ -7,25 +7,25 @@
   },
   {
     "name": "Github",
-    "url": "https://github.com/yam-finance/yam-www",
+    "url": "https://github.com/Crypto-Secret/",
     "router": false,
     "homeDisplay": true
   },
   {
     "name": "Twitter",
-    "url": "https://twitter.com/YamFinance",
+    "url": "https://twitter.com/CryptoSecret",
     "router": false,
     "homeDisplay": true
   },
   {
     "name": "Discord",
-    "url": "https://discord.gg/nKKhBbk",
+    "url": "https://discord.gg/",
     "router": false,
     "homeDisplay": true
   },
   {
     "name": "Proposals",
-    "url": "https://snapshot.page/#/yam",
+    "url": "#",
     "router": false,
     "homeDisplay": true
   },
