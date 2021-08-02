@@ -100,11 +100,11 @@ const App: React.FC = () => {
 };
 
 const Providers: React.FC = ({ children }) => {
-  const [darkModeSetting] = useLocalStorage("darkMode", false);
+  const [darkModeSetting] = useLocalStorage("darkMode", true);
   const { dark: darkTheme, light: lightTheme } = useMemo(() => {
     return createTheme({
       baseColor: { h: 338, s: 100, l: 41 },
-      baseColorDark: { h: 339, s: 89, l: 49 },
+      baseColorDark: { h: 220, s: 49, l: 49 },
       borderRadius: 28,
     });
   }, []);
