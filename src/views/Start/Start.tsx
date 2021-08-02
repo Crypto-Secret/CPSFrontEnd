@@ -52,13 +52,13 @@ const Start: React.FC = () => {
     <StartPage>
       <StyledHero>
         <StartPageHeader
-          icon={`${astronaut}❤️🍠`}
+          icon={`${astronaut}❤🙊`}
           subtitle="Grow your Wallet, open participation, and inclusive community."
           title="Fair finance by the people, for the people."
         />
         <Container size="lg">
           <Box row justifyContent="center">
-            <Button text="Buy Token" to="https://dex.guru/token/0x8e8014ab4e87ef2c5d12b455ff0c4f88ae84b274-bsc" />
+            <Button text="Buy Token" href="https://dex.guru/token/0x8e8014ab4e87ef2c5d12b455ff0c4f88ae84b274-bsc" />
             <Spacer />
             <Button text="Join the Community" href="https://discord.gg/6GqfwVgqf8" variant="secondary" />
           </Box>
