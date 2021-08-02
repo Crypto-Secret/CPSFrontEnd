@@ -58,7 +58,7 @@ const Start: React.FC = () => {
         />
         <Container size="lg">
           <Box row justifyContent="center">
-            <Button text="Buy Token" to="#" />
+            <Button text="Buy Token" to="https://dex.guru/token/0x8e8014ab4e87ef2c5d12b455ff0c4f88ae84b274-bsc" />
             <Spacer />
             <Button text="Join the Community" href="https://discord.gg/6GqfwVgqf8" variant="secondary" />
           </Box>
